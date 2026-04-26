@@ -109,7 +109,7 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-android:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'com.github.LuminSoft:eNROLL-Lite-Android:v1.2.4'
+    implementation 'com.github.LuminSoft:eNROLL-Lite-Android:v1.2.6'
     implementation 'com.google.code.gson:gson:2.8.8'
 }
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,mm,swift}"
   s.vendored_frameworks = 'ios/Frameworks/EnrollFramework.xcframework'
 
-  s.dependency 'EnrollNeoCore', '1.0.6'
+  s.dependency 'EnrollNeoCore', '1.0.13'
   s.dependency 'FirebaseRemoteConfig'
 
   if respond_to?(:install_modules_dependencies, true)

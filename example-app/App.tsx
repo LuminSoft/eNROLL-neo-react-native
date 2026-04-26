@@ -20,7 +20,7 @@ import {
   startEnroll,
   addRequestIdListener,
   type StartEnrollOptions,
-} from 'enroll-react-native';
+} from 'enroll-neo-react-native';
 
 // ─── Default values (same as Capacitor example) ─────────
 const DEFAULTS = {

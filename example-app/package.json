@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "enroll-react-native": "file:..",
+    "enroll-neo-react-native": "file:..",
     "react": "18.3.1",
     "react-native": "0.76.9"
   },

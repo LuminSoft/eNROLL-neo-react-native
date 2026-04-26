@@ -12,6 +12,10 @@ const pluginRoot = path.resolve(__dirname, '..');
 const config = {
   watchFolders: [pluginRoot],
   resolver: {
+    unstable_enableSymlinks: true,
+    extraNodeModules: {
+      'enroll-neo-react-native': pluginRoot,
+    },
     nodeModulesPaths: [
       path.resolve(__dirname, 'node_modules'),
       path.resolve(pluginRoot, 'node_modules'),
