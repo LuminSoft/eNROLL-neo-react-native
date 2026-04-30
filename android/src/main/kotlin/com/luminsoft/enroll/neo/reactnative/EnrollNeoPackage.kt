@@ -24,8 +24,8 @@ class EnrollNeoPackage : TurboReactPackage() {
                 EnrollNeoModule.NAME,
                 false,  // canOverrideExistingModule
                 false,  // needsEagerInit
-                BuildConfig.IS_NEW_ARCHITECTURE_ENABLED,  // isTurboModule
-                false   // isCxxModule
+                false,  // isCxxModule
+                BuildConfig.IS_NEW_ARCHITECTURE_ENABLED   // isTurboModule
             )
             moduleInfos
         }

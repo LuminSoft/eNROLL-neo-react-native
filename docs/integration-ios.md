@@ -56,15 +56,22 @@ Add the following keys to `ios/YourApp/Info.plist`:
 
 1. In Xcode, go to **Signing & Capabilities**
 2. Click **+ Capability** and add **Near Field Communication Tag Reading**
-3. In your `Info.plist`, add:
+3. In your app entitlements file, add:
 
 ```xml
+<key>com.apple.developer.nfc.readersession.formats</key>
+<array>
+    <string>TAG</string>
+</array>
 <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
 <array>
     <string>A0000002471001</string>
     <string>A0000002472001</string>
 </array>
 ```
+
+4. Build and test on a **physical iPhone**. NFC is unavailable on the simulator.
+5. Ensure your provisioning profile / Apple team supports the NFC capability.
 
 ## Step 5: Install Pods
 
